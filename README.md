@@ -9,6 +9,7 @@ This project is a simple e-commerce shop built using React and Material-UI. It u
 - Add items to the shopping cart.
 - Update the quantity of items in the cart.
 - Remove items from the cart.
+- 10% discount in total price
 
 ## Technologies Used
 
