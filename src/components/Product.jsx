@@ -13,7 +13,7 @@ const Product = () => {
   // set navigate
   const navigate = useNavigate()
 
-  const [soldProducts,setSoldProducts] = useState([]);
+ 
 
   // set fetch data
   useEffect(() => {
