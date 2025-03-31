@@ -1,4 +1,4 @@
-import { useEffect } from "react";
+
 
 const URL_API = 'https://fakestoreapi.com/';
 
