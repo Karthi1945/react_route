@@ -70,7 +70,7 @@ export default function Checkout() {
   const handelDelete = (e)=>{
     const id = e.currentTarget.id;
     const products = JSON.parse(localStorage.getItem('products')) || [];
-    const newProducts = products.filter(product => product.id != id);
+    const newProducts = products.filter(product => product.id !== id);
     console.log(newProducts);
     localStorage.setItem('products',JSON.stringify(newProducts));
   }
